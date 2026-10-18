@@ -31,7 +31,7 @@ This project explores hospital service activity, reported financial performance,
 ![Admission and length-of-stay analysis](screenshots/admission-length-of-stay.png)
 ![Interactive dashboard with shared filters](screenshots/interactive-filters.png)
 
-More screenshots are available in the [`images/`](images/) folder. For a concise explanation of objectives, analytical methods, observations, and limitations, see [Project Overview (PDF)](Project_Overview.pdf).
+More screenshots are available in the [`images/`](screenshots/) folder. For a concise explanation of objectives, analytical methods, observations, and limitations, see [Project Overview (PDF)](Project_Overview.pdf).
 
 ## Important interpretation notes
 - Figures reflect **source-reported** financial fields. The reported profit values did not reconcile consistently to simple revenue/cost/discount formulas and were not independently validated.
