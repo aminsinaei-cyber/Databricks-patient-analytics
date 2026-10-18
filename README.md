@@ -26,7 +26,7 @@ This project explores hospital service activity, reported financial performance,
 - Revenue and length of stay had negligible linear correlation in this dataset (Pearson r approximately **0.0114**).
 
 ## Dashboard previews
-![Executive and hospital performance overview](images/dashboard-overview.png)
+![Executive and hospital performance overview](screenshots/dashboard-overview.png)
 ![Financial performance by hospital and service](images/financial-performance.png)
 ![Admission and length-of-stay analysis](images/admission-length-of-stay.png)
 ![Interactive dashboard with shared filters](images/interactive-filters.png)
