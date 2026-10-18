@@ -1,6 +1,7 @@
 # Hospital Patient Analytics | Databricks
 
 **Independent data analytics portfolio project** | Databricks · PySpark · SQL · Delta Lake · AI/BI Dashboards
+
 **Prepared by Amin Sinaei**
 
 ## Project overview
