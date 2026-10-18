@@ -2,7 +2,7 @@
 
 **Independent data analytics portfolio project** | Databricks · PySpark · SQL · Delta Lake · AI/BI Dashboards
 
-**Prepared by Amin Sinaei**
+**Prepared by Amin Sinaei** **October 2026**
 
 ## Project overview
 This project explores hospital service activity, reported financial performance, admission patterns, and length of stay using a training dataset. The objective is to turn source records into a validated analytical table and present useful operational and financial comparisons in Databricks dashboards.
