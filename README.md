@@ -27,9 +27,9 @@ This project explores hospital service activity, reported financial performance,
 
 ## Dashboard previews
 ![Executive and hospital performance overview](screenshots/dashboard-overview.png)
-![Financial performance by hospital and service](images/financial-performance.png)
-![Admission and length-of-stay analysis](images/admission-length-of-stay.png)
-![Interactive dashboard with shared filters](images/interactive-filters.png)
+![Financial performance by hospital and service](screenshots/financial-performance.png)
+![Admission and length-of-stay analysis](screenshots/admission-length-of-stay.png)
+![Interactive dashboard with shared filters](screenshots/interactive-filters.png)
 
 More screenshots are available in the [`images/`](images/) folder. For a concise explanation of objectives, analytical methods, observations, and limitations, see [Project Overview (PDF)](Project_Overview.pdf).
 
