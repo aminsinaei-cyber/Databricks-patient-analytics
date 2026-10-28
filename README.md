@@ -11,7 +11,7 @@ This project explores hospital service activity, reported financial performance,
 * **Source:** 8,392 records across 19 original fields (training dataset).
 * **Preparation:** Schema review, null and duplicate checks, date and financial-value validation, column-name normalization, text cleanup, and ZIP code standardization.
 * **Feature engineering:** Length of stay, admission month, and reported profit-margin percentage.
-* **Output:** An 8,392-row, 22-column Delta analytical table (`patient.default.patient\\\\\\\_analytics`).
+* **Output:** An 8,392-row, 22-column Delta analytical table (`patient.default.patient_analytics`).
 * **Presentation:** Two Databricks AI/BI dashboards, including an interactive dashboard with shared hospital, priority, region, and admission-date filters.
 
 ## Headline metrics (unfiltered)
@@ -43,20 +43,20 @@ More screenshots are in [`images/`](screenshots/). See [Project Overview (PDF)](
 
 The repository separates the analytical SQL queries from the PySpark notebook code:
 
-* [**`PySpark/`**](PySpark/)**:** Original Databricks notebook cells covering ingestion, profiling, null/duplicate and financial checks, cleaning, `df\\\\\\\_clean` rebuild, feature engineering, and writing the Delta table.
+* [**`PySpark/`**](PySpark/)**:** Original Databricks notebook cells covering ingestion, profiling, null/duplicate and financial checks, cleaning, `df_clean` rebuild, feature engineering, and writing the Delta table.
 * [**`SQL/`**](SQL/)**:** Databricks SQL queries for dashboard datasets, KPIs, and analytical comparisons, including monthly revenue and profit trends.
 
 ### PySpark notebook sequence
 
 The complete notebook export was divided into **20 ordered PySpark cells**. Key stages include:
 
-1. Read `patient.default.patient\\\\\\\_info\\\\\\\_raw` and inspect its schema and records.
+1. Read `patient.default.patient_info_raw` and inspect its schema and records.
 2. Check nulls, duplicate records, invalid values, and categorical distributions.
 3. Standardize column names, ZIP codes, and text values.
 4. Examine financial data and test possible revenue/cost/profit relationships.
-5. Rebuild `df\\\\\\\_clean` from the raw table (a retained step from the original notebook).
-6. Engineer `length\\\\\\\_of\\\\\\\_stay`, `admission\\\\\\\_month`, and `profit\\\\\\\_margin\\\\\\\_pct`.
-7. Inspect the results and save `patient.default.patient\\\\\\\_analytics` as a Delta table.
+5. Rebuild `df_clean` from the raw table (a retained step from the original notebook).
+6. Engineer `length_of_stay`, `admission_month`, and `profit_margin_pct`.
+7. Inspect the results and save `patient.default.patient_analytics` as a Delta table.
 
 **Execution notes:** Run PySpark cells in numerical order in the same Databricks session; individual files are notebook fragments, not standalone scripts. Run SQL queries after the Delta table exists. If your catalog or schema differs, update the table references. The additional SQL files were extracted from the earlier project guide; the complete notebook export itself contains one SQL cell for monthly revenue and profit trends. These extracted files have not been independently rerun in a fresh Databricks workspace.
 
