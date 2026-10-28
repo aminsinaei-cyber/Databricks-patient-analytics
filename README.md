@@ -43,8 +43,8 @@ More screenshots are in [`images/`](screenshots/). See [Project Overview (PDF)](
 
 The repository separates the analytical SQL queries from the PySpark notebook code:
 
-* [**`pyspark/`**](pyspark/)**:** Original Databricks notebook cells covering ingestion, profiling, null/duplicate and financial checks, cleaning, `df\\\\\\\_clean` rebuild, feature engineering, and writing the Delta table.
-* [**`sql/`**](sql/)**:** Databricks SQL queries for dashboard datasets, KPIs, and analytical comparisons, including monthly revenue and profit trends.
+* [**`PySpark/`**](PySpark/)**:** Original Databricks notebook cells covering ingestion, profiling, null/duplicate and financial checks, cleaning, `df\\\\\\\_clean` rebuild, feature engineering, and writing the Delta table.
+* [**`SQL/`**](SQL/)**:** Databricks SQL queries for dashboard datasets, KPIs, and analytical comparisons, including monthly revenue and profit trends.
 
 ### PySpark notebook sequence
 
