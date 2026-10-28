@@ -37,7 +37,7 @@ This project explores hospital service activity, reported financial performance,
 !\[Admission and length-of-stay analysis](images/admission-length-of-stay.png)
 !\[Interactive dashboard with shared filters](images/interactive-filters.png)
 
-More screenshots are in [`images/`](images/). See [Project Overview (PDF)](Project_Overview.pdf) for objectives, methods, observations, and limitations.
+More screenshots are in [`images/`](screenshots/). See [Project Overview (PDF)](Project_Overview.pdf) for objectives, methods, observations, and limitations.
 
 ## Technical implementation
 
